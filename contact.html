@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon's Tutoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+
+
+        </div>
+    </nav>
+    
+    <div id="contact-home">
+
+
+        <div id="contact-container">
+            <img id="pic" src="assets/belly.png" alt="belleville'">
+        </div> 
+
+        <div class="me-section">
+            <h2 class="header">How to book with me.</h2>
+
+            <p class="txt">My email is <a href="mailto:lipp2454@mylaurier.ca" id="email">Lipp2454@mylaurier.ca</a></p>
+            <p class="txt">Include information such as:</p>
+
+            <ul id="info">
+                <li>Who are the sessions for?</li>
+                <li>Do you have an upcoming test?</li>
+                <li>How often do you want to meet?</li>
+                <li>Do you prefer in person or remote?</li>
+            </ul>
+
+            <div id="linkedin-container">
+                <a href="https://www.linkedin.com/in/simon-lippitt" target="_blank"><button id="linkedin"><img src="assets/linkedinapp.png"></button></a>
+                <p>Connect with me on LinkedIn!</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    
+    
+</body>
+</html>

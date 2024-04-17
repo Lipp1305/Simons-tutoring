@@ -5,4 +5,30 @@
     #hamburger-nav{
         display: flex;
     }
+    #home, #about-home, #services-home, #contact-home{
+        flex-direction: column;
+    }
+
+
+    #pic-container, #ball-container, #math-container, #contact-container{
+        max-width: 100%;
+        padding: 0 25%;
+    }
+
+    #text, .me-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+        padding: 0 1.5rem;
+    }
+    #title2{
+        margin-bottom: 1rem;
+    }
+    #btn-container{
+        justify-content: center;
+    }
+    
 }

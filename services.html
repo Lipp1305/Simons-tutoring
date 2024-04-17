@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon's Tutoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <div id="services-home">
+
+        <div id="math-container">
+            <img id="pic" src="assets/help-math.png" alt="math help'">
+        </div> 
+       
+        <div class="me-section">
+            <h2 class="header">Here's how I can help.</h2>
+
+            <p class="txt">My tutoring services cover a wide range of mathematical subjects, here are a few examples:</p>
+            <p class="txt"><strong>Foundations:</strong> Arithmetic, Fractions, Decimals, Algebra.</p>
+            <p class="txt"><strong>Algebra and Geometry:</strong> Linear Algebra, Quadratics, Trigonometry, Coordinates.</p>
+            <p class="txt"><strong>Advanced Math:</strong> Calculus, Statistics, Physics.</p>
+            <p class="txt"><strong>Computer Science:</strong> Functional Programming, Data Structures, Algorithms.</p>
+            <p class="txt"></p>
+            <p class="txt">I tailor my lessons to each student's preferred learning style, 
+                as the traditional classroom style doesn't work for everyone.</p>
+            <p class="txt">Lessons are available in person (Belleville Area) or Remote via Zoom.</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

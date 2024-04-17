@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon's Tutoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Simon's Tutoring</div>
+        <div class="hamburger-menu">
+
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="services.html" onclick="toggleMenu()">Services</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="about-home">
+
+        <div id="ball-container">
+            <img id="pic" src="assets/me-basketball.JPG" alt="Basketball'">
+       </div> 
+
+        <div class="me-section">
+            <h2 class="header">Who am I?</h2>
+            <p class="txt">I'm currently studying at Wilfrid Laurier University doing a double major 
+                in Mathematics and Computer Science.</p>
+            <p class="txt">I have experience tutoring, coaching sports, lifeguarding, and developing software.</p>
+            <p class="txt">I have loved math since I was a kid. I would get extra worksheets from teachers, and I learned how to 
+                solve the rubick's cube in Grade 4.</p>
+            <p class="txt">I grew up in Belleville, Ontario and graduated from Nicholeson Catholic College.</p>
+            <p class="txt">In highschool I was a member of the Men's Basketball team, and was heavily involved in the community.</p>
+            <p class="txt">When I was in Grade 12, I began studying with a tutor to cover math material I missed over the pandemic.</p>
+            <p class="txt">His positive impact inspired me to start helping others with mathematics, as his guidance helped
+                give me confidence moving foreword in my studies.</p>
+        </div>
+
+
+    </div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
