@@ -30,5 +30,8 @@
     #btn-container{
         justify-content: center;
     }
+    .btn{
+        margin-right: 0.1rem;
+    }
     
 }
